@@ -7,12 +7,12 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
+  background: rgb(255, 255, 255);
   padding: 0 16px;
 }
 
 header {
-  background-color: #f5ba13;
+  background-color: #6400d6;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -20,8 +20,9 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: 200;
+  text-align: center;
 }
 
 footer {
@@ -33,9 +34,9 @@ footer {
 }
 
 footer p {
-  color: #ccc;
+  color: rgb(170, 170, 170);
 }
-.note {
+.properties {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
@@ -44,11 +45,11 @@ footer p {
   margin: 16px;
   float: left;
 }
-.note h1 {
+.properties h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
-.note p {
+.properties p {
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
