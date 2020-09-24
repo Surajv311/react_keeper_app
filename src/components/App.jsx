@@ -1,4 +1,4 @@
-// following naming style of airbnb guide - jsx (js would also suffice but jsx preferred)
+// following the naming style of airbnb guide - jsx (js would suffice but jsx preferred)
 
 import React from "react";
 import Header from "./Header";
