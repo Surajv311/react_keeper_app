@@ -1,7 +1,14 @@
 import React from "react";
 
+const date = new Date();
+const year = date.getFullYear();
+
 function Footer() {
-  return <p>© 2020 Surajv311</p>;
+  return (
+    <footer>
+      <p>© {year} Surajv311</p>
+    </footer>
+  );
 }
 
 export default Footer;
