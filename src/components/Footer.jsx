@@ -4,11 +4,7 @@ const date = new Date();
 const year = date.getFullYear();
 
 function Footer() {
-  return (
-    <footer>
-      <p>© {year} Surajv311</p>
-    </footer>
-  );
+  return <footer>{/* <p>© {year} Surajv311</p> */}</footer>;
 }
 
 export default Footer;
